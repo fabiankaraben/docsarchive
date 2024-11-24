@@ -1,0 +1,28 @@
+{
+  "name": "docsarchive",
+  "version": "1.0.0",
+  "description": "Docs Archive backend tools.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --clear src/app.ts",
+    "build": "rimraf ./dist && tsc",
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiankaraben/docsarchive.git"
+  },
+  "author": "Fabián Karaben",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabiankaraben/docsarchive/issues"
+  },
+  "homepage": "https://github.com/fabiankaraben/docsarchive#readme",
+  "devDependencies": {
+    "@types/node": "^22.9.3",
+    "rimraf": "^6.0.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  }
+}
